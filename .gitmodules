@@ -1,0 +1,3 @@
+[submodule "dasmato"]
+	path = dasmato
+	url = https://github.com/boombranco/dasmato
