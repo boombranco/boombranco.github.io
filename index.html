@@ -1,61 +1,215 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Excursion</title>
-    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
-  </head>
-  <body>
+---
+layout: default
+title: Mark Blanco
+---
 
-    <!-- Add header to website -->
-    <div class="header">
-      <h1>Discover hidden places in the world around you</h1>
-    </div>
+    <!-- Main body of the web page -->
+    <main>
+      <!-- First section - Featured image and title -->
+      <div class="container">
+        <div class="featured">
+          <div class="feature-img">
+            <img src="/resources/images/banner.jpg" alt="Students doing homework at a table outside.">
+          </div>
+          <div class="text">
+            <h1>Learn something new every day</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+            <button type="button" name="button">Start here</button>
+          </div>
+        </div>
+      </div>
+      <!-- Second section - Info about the school -->
+      <div class="container">
+        <div class="info">
+          <div class="practicing">
+            <img src="/resources/images/information-main.jpg" alt="A student reading a book outside.">
+            <div class="text">
+              <h1>It doesn't hurt to keep practicing</h1>
+              <h3>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</h3>
+              <h5 class="quote">Emanuel, Sr Strategist at Hiring.com</h5>
+            </div>
+          </div>
+            <!-- Web version of the sidebar -->
+          <div class="description">
+            <div class="orientation sidebar">
+              <img src="/resources/images/information-orientation.jpg" alt="An arial shot of students walking to class.">
+              <div class="text">
+                <h2>Orientation date</h2>
+                <h4>Tue 10/11 & Wed 10/12: 8am-3pm</h4>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+            <div class="campus sidebar">
+              <img src="/resources/images/information-campus.jpg" alt="A view of the study hall where you can see a map of South America and students studying.">
+              <div class="text">
+                <h2>Our campus</h2>
+                <h4>Find which campus is close by you</h4>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+            <div class="lecture sidebar">
+              <img src="/resources/images/information-guest-lecture.jpg" alt="A headshot of an older gentleman, with gray facial hair, wearing a beret hat.">
+              <div class="text">
+                <h2>Our guest lecture</h2>
+                <h4>Join a keynote with Oliver Sack about music in medical treatment</h4>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+      </div>
+          <!-- Mobile version of the sidebar -->
+          <div class="mobile-side">
+            <div class="orientation sidebar">
+              <img src="/resources/images/information-orientation-mobile.jpg" alt="An arial shot of students walking to class.">
+              <div class="text">
+                <h2>Orientation date</h2>
+                <h4>Tue 10/11 & Wed 10/12: 8am-3pm</h4>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+            <div class="campus sidebar">
+              <img src="/resources/images/information-campus-mobile.jpg" alt="A headshot of an older gentleman, with gray facial hair, wearing a beret hat.">
+              <div class="text">
+                <h2>Our campus</h2>
+                <h4>Find which campus is close by you</h4>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+            <div class="lecture sidebar">
+              <img src="/resources/images/information-guest-lecture-mobile.jpg" alt="A headshot of an older gentleman, with gray facial hair, wearing a beret hat.">
+              <div class="text">
+                <h2>Our guest lecture</h2>
+                <h4>Join a keynote with Oliver Sack about music in medical treatment</h4>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <!-- Add coming soon link -->
-    <div class="links">
-      <a href="" target="_top">Download Excursion (Coming soon!)</a>
-    </div>
-
-    <br>
-
-    <!-- Add iphone image and video -->
-    <div class="video">
-      <video src="./resources/videos/excursion.mp4" autoplay>
-      </video>
-    </div>
-
-    <!-- Add secondary header -->
-    <div class="header">
-      <h2>Your personal travel guide</h2>
-    </div>
-
-    <!-- Add paragraph about personalized travel guides -->
-    <p>Excursion remember places you like, and recommends new points of interest around you.</p>
-
-    <!-- Add camping image -->
-    <p>
-    <img src="./resources/images/camp.jpg" alt="Image of tents lit up on top of a mountain.">
-    </p>
-
-    <!-- Add phone image -->
-    <p>
-    <img src="./resources/images/phone.png" alt="iPhone icon.">
-    </p>
-
-    <!-- Add secondary header -->
-    <div class="header">
-      <h2>Coming Soon for iPhone and Android</h2>
-    </div>
-
-    <!-- Add second coming soon link -->
-    <div class="links">
-      <a href="" target="_top">Download Excursion (Coming soon!)</a>
-    </div>
-
-    <div class="copyright">
-      <p>© Excursion</p>
-    </div>
-
-  </body>
-</html>
+      <!-- Third section - Start learning with 6 images -->
+      <div class="container">
+        <h1 class="learningtitle">Start Learning</h1>
+        <!-- Web version of the Learning section -->
+        <div class="learning">
+          <div class="box software">
+            <div class="learning-img">
+              <img src="/resources/images/course-software.jpg" alt="An iMac on a desk.">
+            </div>
+            <div class="text">
+              <h1>Software Engineering</h1>
+              <h2>COURSES</h2>
+              <h3>Web Development, Mobile Development, iOT, APIs</h3>
+            </div>
+          </div>
+          <div class="box computer">
+            <div class="learning-img">
+              <img src="/resources/images/course-computer-art.jpg" alt="Someone holding a phone.">
+            </div>
+            <div class="text">
+              <h1>Computer art</h1>
+              <h2>COURSES</h2>
+              <h3>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</h3>
+            </div>
+          </div>
+          <div class="box design">
+            <div class="learning-img">
+              <img src="/resources/images/course-design.jpg" alt="Someone taking a photo.">
+            </div>
+            <div class="text">
+              <h1>Design</h1>
+              <h2>COURSES</h2>
+              <h3>User Experience Design, User Research, Visual Design</h3>
+            </div>
+          </div>
+          <div class="box data">
+            <div class="learning-img">
+              <img src="/resources/images/course-data.jpg" alt="An open laptop.">
+            </div>
+            <div class="text">
+              <h1>Data</h1>
+              <h2>COURSES</h2>
+              <h3>Data Science, Big Data, SQL, Data Visualization</h3>
+            </div>
+          </div>
+          <div class="box business">
+            <div class="learning-img">
+              <img src="/resources/images/course-business.jpg" alt="A game of chess.">
+            </div>
+            <div class="text">
+              <h1>Business</h1>
+              <h2>COURSES</h2>
+              <h3>Product Development, Business Development, Startup</h3>
+            </div>
+          </div>
+          <div class="box marketing">
+            <div class="learning-img">
+              <img src="/resources/images/course-marketing.jpg" alt="Someone using their Apple watch.">
+            </div>
+            <div class="text">
+              <h1>Marketing</h1>
+              <h2>COURSES</h2>
+              <h3>Analytics, Content Marketing, Mobile Marketing</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile version of the Learning section -->
+        <div class="mobile-learning">
+          <div class="mobile-box software">
+            <span>Software Engineering</span>
+          </div>
+          <div class="mobile-box computer">
+            <span>Computer art</span>
+          </div>
+          <div class="mobile-box design">
+            <span>Design</span>
+          </div>
+          <div class="mobile-box data">
+            <span>Data</span>
+          </div>
+          <div class="mobile-box business">
+            <span>Business</span>
+          </div>
+          <div class="mobile-box marketing">
+            <span>Marketing</span>
+          </div>
+        </div>
+      </div>
+      <!-- Fourth section - Thesis exhibit with video and info -->
+      <div class="container">
+        <h1 class="thesistitle">Thesis exhibit</h1>
+        <!-- Web version of the Thesis exhibits section -->
+        <div class="thesis">
+          <div class="video">
+            <video src="/resources/videos/thesis.mp4" autoplay loop>
+              </video>
+            <div class="text">
+              <h2>Reimagine urban</h2>
+              <span>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</span>
+            </div>
+          </div>
+          <div class="exhibit">
+            <div class="first thesisexhibit">
+              <img src="/resources/images/thesis-fisma.jpg" alt="Student taking notes on a desk.">
+              <div class="text">
+                <h2>Fisma: Design and Prototype</h2>
+                <span>Designer showcase of new prototype product</span>
+              </div>
+            </div>
+            <div class="second thesisexhibit">
+              <img src="/resources/images/thesis-now-and-then.jpg" alt="High level view of the Empire State Building in New York City.">
+              <div class="text">
+                <h2>Now and then</h2>
+                <span>Research study about New York</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile version of the Thesis exhibits section -->
+        <div class="mobile-thesis">
+          <div class="video">
+            <video src="/resources/videos/thesis.mp4" autoplay loop>
+              </video>
+            </div>
+          </div>
+      </div>
+    </main>
