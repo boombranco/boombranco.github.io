@@ -2,6 +2,103 @@ html {
   font-size: 16px;
 }
 
+/* CSS for the header */
+header {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+header .container {
+  background-color: white;
+  color: white;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.container img {
+  height: 32px;
+  padding-left: 24px;
+  padding-right: 2px;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 16px;
+}
+
+nav span a {
+  padding: 0 8px;
+  color: #C09F80;
+}
+nav span a:hover {
+  color: #76323F;
+  padding-bottom: 19px;
+  border-bottom: 2px solid;
+}
+
+span.colmar {
+  color: #565656;
+  font-weight: bold;
+}
+span.academy {
+  color: #C09F80;
+  font-weight: lighter;
+}
+
+header .mobile-nav {
+  display: none;
+}
+header .small-mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+  header nav.webversion {
+    display: none;
+  }
+  header nav.mobile-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+  header nav ul {
+    display: flex;
+  }
+  header nav li {
+    display: inline-flex;
+  }
+}
+@media only screen and (max-width: 418px) {
+  span.colmar {
+    display: none;
+  }
+  span.academy {
+    display: none;
+  }
+  header nav.mobile-nav {
+    display: none;
+  }
+  header .logo {
+    display: none;
+  }
+  header .small-mobile-nav {
+    display: block;
+  }
+  header nav.small-mobile-nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  header nav.mobile-nav ul {
+    width: 100%;
+  }
+  header nav li {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+}
+
 body {
   min-width: 400px; /* To emulate Chrome min-width */
   background-color: rgb(255, 242, 242);
