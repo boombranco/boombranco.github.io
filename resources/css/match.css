@@ -95,30 +95,24 @@ header .small-mobile-nav {
   }
 }
 
-/* CSS for the Body */
+/* CSS for the body */
 body {
-  min-width: 400px; /* To emulate Chrome min-width */
-  background-color: #000;
   font-family: 'Proza Libre', sans-serif;
-  color: rgb(32, 64, 86);
+  color: #000
 }
 
-h1 {
-  font-size: 2.1875rem;
-  font-weight: bold;
+/* CSS for the main part of the body */
+main {
+  padding-top: 64px;
 }
 
-h2 {
-  font-size: .875rem;
-  font-weight: bold;
+h1, h2 {
+  color: #565656;
 }
 
-p {
-  font-size: .875rem;
-  color: rgb(74, 74, 74);
-}
 
-.container {
+
+#matching {
   padding-top: 5.25rem;
 }
 
@@ -134,4 +128,46 @@ p {
   font-weight: 900;
   color: rgb(255, 255, 255);
   cursor: pointer;
+}
+
+/* CSS for the footer */
+footer {
+  height: 100px;
+  border-top: 1px solid #C09F80;
+}
+
+.footnote {
+  display: flex;
+}
+
+footer .footnote {
+  padding: 16px 0 0 24px;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+}
+
+footer nav li {
+  display: inline-flex;
+  padding-left: 12px;
+}
+.mobile-footnote {
+  display: none;
+}
+
+@media only screen and (max-width: 520px) {
+  footer nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  footer {
+    height: 100%;
+  }
+  footer .footnote {
+    padding-bottom: 16px;
+  }
 }
