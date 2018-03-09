@@ -104,17 +104,15 @@ body {
 /* CSS for the main part of the body */
 main {
   padding-top: 64px;
-  background-color: #D7CEC7;
 }
 
 h1, h2 {
   color: #565656;
 }
 
-
-
 .container {
   padding-top: 5.25rem;
+  background-color: #D7CEC7;
 }
 
 .card {
