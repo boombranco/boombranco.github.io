@@ -4,6 +4,7 @@ span {
 
 a {
   font-size: 16px;
+  text-decoration: none !important;
 }
 
 /* CSS for the header */
@@ -21,6 +22,7 @@ header .container {
   width: 100%;
   padding-left: 0px;
   padding-right: 0px;
+  z-index: 10;
 }
 
 .container img {
@@ -122,7 +124,8 @@ h1, h2 {
 }
 
 .containerx {
-  padding-top: 5.25rem;
+  padding: 5.25rem;
+  z-index: 1;
 }
 
 .card {
@@ -156,13 +159,6 @@ footer .footnote {
 footer nav {
   display: flex;
   flex-direction: column;
-}
-
-nav a {
-  color: #C09F80;
-}
-nav a:hover {
-  color: #76323F;
 }
 
 footer nav li {
