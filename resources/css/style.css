@@ -11,6 +11,7 @@ header .container {
   align-items: center;
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 
 .container img {
@@ -691,4 +692,9 @@ footer nav li {
   footer .footnote {
     padding-bottom: 16px;
   }
+}
+
+/* Css for Tableau */
+.tableauPlaceholder {
+  z-index: 1;
 }

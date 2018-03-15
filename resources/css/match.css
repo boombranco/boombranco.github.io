@@ -159,12 +159,12 @@ footer .footnote {
 footer nav {
   display: flex;
   flex-direction: column;
-  color: #000000;
 }
 
 footer nav li {
   display: inline-flex;
   padding-left: 12px;
+  color: #000000;
 }
 .mobile-footnote {
   display: none;
