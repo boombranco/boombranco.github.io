@@ -47,11 +47,13 @@ nav span a:hover {
   border-bottom: 2px solid;
 }
 
-span.colmar {
+span.mark a {
+  text-decoration: none !important;
   color: #565656;
   font-weight: bold;
 }
-span.academy {
+span.blanco a {
+  text-decoration: none !important;
   color: #C09F80;
   font-weight: lighter;
 }
@@ -167,6 +169,7 @@ footer nav li {
 }
 
 footer nav li a {
+  text-decoration: none !important;
   color: #000000;
 }
 

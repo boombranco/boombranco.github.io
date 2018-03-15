@@ -36,11 +36,11 @@ nav span a:hover {
   border-bottom: 2px solid;
 }
 
-span.colmar {
+span.mark a {
   color: #565656;
   font-weight: bold;
 }
-span.academy {
+span.blanco a {
   color: #C09F80;
   font-weight: lighter;
 }
