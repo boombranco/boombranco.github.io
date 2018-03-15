@@ -696,7 +696,8 @@ footer nav li {
 
 /* Css for Visualization section */
 .VisualizationTitle {
-  text-align: center;
+  text-align: left;
+  padding-left: 75px;
   padding-top: 32px;
   font-size: 32px;
   font-weight: bold;
@@ -705,9 +706,5 @@ footer nav li {
 
 .container .tableauPlaceholder {
   background-color: #D7CEC7;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   padding: 32px 72px 0 72px;
-  flex-basis: 700px;
 }
