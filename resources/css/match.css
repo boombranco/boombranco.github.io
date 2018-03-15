@@ -164,8 +164,12 @@ footer nav {
 footer nav li {
   display: inline-flex;
   padding-left: 12px;
+}
+
+footer nav li a {
   color: #000000;
 }
+
 .mobile-footnote {
   display: none;
 }
