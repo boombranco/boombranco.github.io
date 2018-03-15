@@ -159,6 +159,7 @@ footer .footnote {
 footer nav {
   display: flex;
   flex-direction: column;
+  color: #000000;
 }
 
 footer nav li {
