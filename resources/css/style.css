@@ -172,19 +172,20 @@ footer, footer .footnote, footer .footnote .copyright, footer .footnote .terms {
 }
 
 button {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  border-radius: 5px;
-  width: 80%;
-  height: 50px;
-  background-color: #76323F;
-  color: #FFF;
-  transition-property: background-color;
-  transition-duration: 250ms;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  border-radius: 5px !important;
+  width: 30% !important;
+  height: 50px !important;
+  background-color: #76323F !important;
+  color: #FFF !important;
+  transition-property: background-color !important;
+  transition-duration: 250ms !important;
+  color: #000 !important;
 }
 button:hover {
-  background-color: #565656;
+  background-color: #565656 !important;
 }
 
 @media only screen and (max-width: 832px) {
