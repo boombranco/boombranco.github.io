@@ -129,20 +129,8 @@ h1, h2 {
   color: #565656;
 }
 
-button {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  border-radius: 5px;
-  width: 80%;
-  height: 50px;
-  background-color: #76323F;
-  color: #FFF;
-  transition-property: background-color;
-  transition-duration: 250ms;
-}
-button:hover {
-  background-color: #565656;
+button a {
+  color: #000 !important;
 }
 
 .containerx {

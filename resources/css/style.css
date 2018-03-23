@@ -182,7 +182,6 @@ button {
   color: #FFF !important;
   transition-property: background-color !important;
   transition-duration: 250ms !important;
-  color: #000 !important;
 }
 button:hover {
   background-color: #565656 !important;
