@@ -47,12 +47,13 @@ nav span a:hover {
   border-bottom: 2px solid;
 }
 
-.mark {
+/*
+.marko {
   padding: 0;
   background-color: white;
-}
+} */
 
-span.mark a {
+span.marko a {
   text-decoration: none !important;
   color: #565656;
   font-weight: bold;
