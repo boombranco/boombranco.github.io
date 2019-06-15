@@ -2153,11 +2153,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*
 @media (max-width: 991px) {
   .banner-left h1 br {
     display: none;
   }
 }
+*/
 
 @media (max-width: 1199px) {
   .banner-left h1 {
@@ -2181,7 +2183,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 992px) {
   .banner-right {
     margin-top: 30px;
     margin-bottom: 30px;
