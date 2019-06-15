@@ -2638,3 +2638,7 @@ h6 {
 .switch-wrap p {
   margin: 0;
 }
+
+.header-name {
+  color: #fff;
+}
