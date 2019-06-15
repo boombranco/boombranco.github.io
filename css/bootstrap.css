@@ -3212,7 +3212,7 @@ tbody.collapse.show {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
   .navbar-expand-lg {
     flex-direction: row;
     flex-wrap: nowrap;
