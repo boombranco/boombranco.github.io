@@ -2645,9 +2645,9 @@ footer {
   text-align: center;
 }
 
-.row .height .align-items-center .justify-content-center .bubbles {
+.container .bubbles {
   background-image: url(img/RunningColors.png);
-  background-position: center;
+  background-size: cover;
 
 }
 /*
