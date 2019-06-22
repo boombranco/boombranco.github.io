@@ -2644,12 +2644,13 @@ footer {
 .footer-social {
   text-align: center;
 }
-/*
+
 .bubbles {
-  position: relative;
-  text-align: center;
+  background-image: url(https://github.com/boombranco/boombranco.github.io/blob/master/img/RunningColors.png);
+  background-position: center;
+
 }
-*/
+/*
 .bubbles-title {
   position: absolute;
   top: 50%;
@@ -2663,3 +2664,4 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+*/
