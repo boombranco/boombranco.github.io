@@ -2648,20 +2648,4 @@ footer {
 .container.bubbles {
   background-image: url(../img/RunningColors.png);
   background-size: cover;
-
 }
-/*
-.bubbles-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.bubbles-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-*/
