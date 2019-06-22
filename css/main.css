@@ -2645,8 +2645,8 @@ footer {
   text-align: center;
 }
 
-.container .bubbles {
-  background-image: url(img/RunningColors.png);
+.container.bubbles {
+  background-image: url(../img/RunningColors.png);
   background-size: cover;
 
 }
