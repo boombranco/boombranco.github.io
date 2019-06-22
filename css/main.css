@@ -2645,8 +2645,8 @@ footer {
   text-align: center;
 }
 
-.bubbles {
-  background-image: url(https://github.com/boombranco/boombranco.github.io/blob/master/img/RunningColors.png);
+.row .height .align-items-center .justify-content-center .bubbles {
+  background-image: url(img/RunningColors.png);
   background-position: center;
 
 }
