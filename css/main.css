@@ -2644,3 +2644,22 @@ footer {
 .footer-social {
   text-align: center;
 }
+
+.bubbles {
+  position: relative;
+  text-align: center;
+}
+
+.bubbles-title {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bubbles-text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
