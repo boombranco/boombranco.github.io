@@ -2664,6 +2664,13 @@ footer {
   text-align: left;
 }
 
-.fas {
-  padding-right: 10px;
+span i {
+  text-align: center;
+  padding-right: 12px;
+  color: black;
+}
+
+.single-feature:hover, .single-feature:hover span i {
+  transition: color .3s ease;
+  color: white;
 }
