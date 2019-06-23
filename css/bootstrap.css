@@ -604,13 +604,13 @@ pre code {
 
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: 600px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 960px;
   }
 }
 
@@ -980,7 +980,7 @@ pre code {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 801px) {
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
