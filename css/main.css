@@ -2659,3 +2659,7 @@ footer {
 .icon img {
   max-width: 64px;
 }
+
+.about-me {
+  text-align: left;
+}
