@@ -1014,6 +1014,7 @@ pre code {
   .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
+    text-align: center;
   }
   .col-lg-7 {
     flex: 0 0 58.33333%;
@@ -7722,4 +7723,10 @@ a.text-dark:focus, a.text-dark:hover {
 
 .invisible {
   visibility: hidden !important;
+}
+
+.passion-boxes {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
 }

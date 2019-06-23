@@ -2090,6 +2090,9 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     opacity: 1;
   }
+  .border-right {
+    border-right: 2px solid gray;
+  }
 }
 
 .dropdown-menu {
@@ -2256,7 +2259,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 800px) {
   .myself-wrap {
     margin-top: 30px;
-    display: block;
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -2644,4 +2646,16 @@ footer {
 .container.bubbles {
   background-image: url(../img/RunningColors.png);
   background-size: cover;
+}
+
+.about-right {
+  align-items: center;
+}
+
+.col-lg-6.about-right {
+  text-align: center;
+}
+
+.icon img {
+  max-width: 64px;
 }
