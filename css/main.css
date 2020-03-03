@@ -2368,16 +2368,17 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease 0s;
 }
 
-.single-feature a {
+.single-feature h4 {
   color: #000;
 }
 
-.single-feature:hover {
+.single-feature:hover h4 {
   cursor: pointer;
+  transition: color .3s ease;
   color: #fff;
 }
 
-.single-feature:hover a, .single-feature:hover .title .lnr {
+.single-feature:hover h4, .single-feature:hover .title .lnr {
   color: #fff;
 }
 
