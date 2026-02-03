@@ -2649,6 +2649,11 @@ footer {
   background-size: cover;
 }
 
+.container.apparel {
+  background-image: url(../img/FashionStock.jpeg);
+  background-size: cover;
+}
+
 .about-right {
   align-items: center;
 }
