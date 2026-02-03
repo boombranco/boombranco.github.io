@@ -2692,3 +2692,12 @@ span i {
   left: -20px;
   top: 0;
 }
+
+.trimmed-text-shadow {
+    color: white; /* Text color */
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
